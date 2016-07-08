@@ -123,10 +123,10 @@ extension TabPageViewController {
      */
 
     private func updateNavigationBar() {
-        if let navigationBar = navigationController?.navigationBar {
-            navigationBar.shadowImage = UIImage()
-            navigationBar.setBackgroundImage(option.tabBackgroundImage, forBarMetrics: .Default)
-        }
+//        if let navigationBar = navigationController?.navigationBar {
+//            navigationBar.shadowImage = UIImage()
+//            navigationBar.setBackgroundImage(option.tabBackgroundImage, forBarMetrics: .Default)
+//        }
     }
 
     private func configuredTabView() -> TabView {
